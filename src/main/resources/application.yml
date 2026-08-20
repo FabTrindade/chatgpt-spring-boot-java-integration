@@ -2,5 +2,7 @@ spring:
     application:
         name: demo
 openai:
+    model: gpt-5.4-mini
     api:
-        key: your-api-key-here
+        url: https://api.openai.com/v1/responses
+        key: ${OPENAI_API_KEY}
